@@ -1,0 +1,5 @@
+proc
+    open(1, O, "TT:")
+    writes(1, "Hello World")
+    close 1
+endmain
